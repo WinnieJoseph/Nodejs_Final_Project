@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>RENTAL PROPERTIES</title>
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--Social Media Fonts  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .grad1 {
+        background-image: linear-gradient(to right, white, rgb(107, 107, 226));
+      }
+
+      footer {
+        background-image: linear-gradient(to left, white, rgb(107, 107, 226));
+        color: navy;
+        padding: 26px;
+        margin-top: -10px;
+      }
+
+      h3 {
+        margin: 10px 0 30px 0;
+        letter-spacing: 10px;
+        font-size: 20px;
+        color: #111;
+      }
+
+      .container {
+        /* padding: 80px 120px; */
+        padding: 20px 50px;
+      }
+
+      .carousel-inner img {
+        width: 100%; /*Set width to 100% */
+        margin: auto;
+      }
+
+      .carousel-caption h3 {
+        color: #fff !important;
+        font-weight: 900;
+      }
+
+      @media (max-width: 600px) {
+        .carousel-caption {
+          display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+        }
+      }
+
+      .navbar {
+        margin-bottom: 0;
+        border: 0;
+      }
+
+      .navbar li a {
+        color: navy !important;
+      }
+
+      .navbar-nav li a:hover {
+        color: navy !important;
+      }
+
+      .navbar-nav li.active a {
+        color: navy !important;
+        background-color: rgba(255, 255, 255, 0.658) !important;
+      }
+
+      .dropdown-menu li a {
+        color: navy !important;
+      }
+
+      .dropdown-menu li a:hover {
+        background-color: wheat !important;
+      }
+
+      .fa-facebook {
+        color: navy;
+      }
+      .fa-twitter {
+        color: navy;
+      }
+      .fa-instagram {
+        color: navy;
+      }
+
+      hr.new {
+        border: 1px solid grey;
+      }
+
+      /*force the page to always scroll to top on reload/refresh*/
+      html {
+        height: 100%;
+        overflow: hidden;
+        width: 100%;
+      }
+
+      body {
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-inverse, grad1"
+      style="position: relative; height: 100px"
+    >
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="/"
+            ><img
+              class="img-responsive"
+              src="img/logo.png"
+              alt="Home"
+              style="
+                position: absolute;
+                top: 0px;
+                left: 75px;
+                width: 100px;
+                height: 100px;
+              "
+          /></a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a
+              href="/house"
+              style="
+                position: absolute;
+                color: navy;
+                left: -850px;
+                top: 45px;
+                font-size: 15px;
+                font-weight: 900;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+                  'Trebuchet MS', sans-serif;
+                text-transform: uppercase;
+              "
+              >House</a
+            >
+          </li>
+          <li>
+            <a
+              href="/apartment"
+              style="
+                position: absolute;
+                color: navy;
+                left: -740px;
+                top: 45px;
+                font-size: 15px;
+                font-weight: 900;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+                  'Trebuchet MS', sans-serif;
+                text-transform: uppercase;
+              "
+              >APARTMENT</a
+            >
+          </li>
+          <li>
+            <a
+              href="/condo"
+              style="
+                position: absolute;
+                color: navy;
+                left: -615px;
+                top: 45px;
+                font-size: 15px;
+                font-weight: 900;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+                  'Trebuchet MS', sans-serif;
+                text-transform: uppercase;
+              "
+              >CONDO</a
+            >
+          </li>
+          <li class="dropdown active">
+            <a
+              class="dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              style="
+                color: navy;
+                right: 57px;
+                top: 45px;
+                font-size: 15px;
+                font-weight: 900;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+                  'Trebuchet MS', sans-serif;
+                text-transform: uppercase;
+              "
+              >MORE <span class="caret"></span
+            ></a>
+            <ul class="dropdown-menu" style="right: 55px; top: 90px">
+              <li><a href="/about">ABOUT</a></li>
+              <li><a href="/contact_us">CONTACT US</a></li>
+              <li><a href="/list_your_property">LIST YOUR PROPERTY</a></li>
+              <li><a href="/privacy_policy">PRIVACY POLICY</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h2>
+        About Us
+        <hr class="new" />
+      </h2>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt
+        in culpa qui officia deserunt mollit anim id est laborum consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt
+        in culpa qui officia deserunt mollit anim id est laborum consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt
+        in culpa qui officia deserunt mollit anim id est laborum consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt
+        in culpa qui officia deserunt mollit anim id est laborum consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <p style="background: rgb(156, 155, 155); font-weight: 900">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt
+        in culpa qui officia deserunt mollit anim id est laborum consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut."
+      </p>
+    </div>
+
+    <footer class="container-fluid text-center">
+      <p>
+        © Copyrights 2021-2022. All rights reserverd.&nbsp;&nbsp;&nbsp;&nbsp;
+        <span
+          class="social-media"
+          title="Click and share!"
+          style="font-size: 15px"
+        >
+          <a
+            target="_blank"
+            href="https://www.facebook.com/"
+            class="fa fa-facebook"
+          >
+          </a
+          >&nbsp;&nbsp;&nbsp;&nbsp;
+          <a
+            target="_blank"
+            href="https://twitter.com/LOGIN/"
+            class="fa fa-twitter"
+          ></a
+          >&nbsp;&nbsp;&nbsp;&nbsp;
+          <a
+            target="_blank"
+            href="https://www.instagram.com/"
+            class="fa fa-instagram"
+          ></a>
+        </span>
+      </p>
+    </footer>
+  </body>
+</html>
